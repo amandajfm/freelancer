@@ -10,8 +10,6 @@
 
 O desafio consiste em replicar o site **Freelancer**, a fim de que o layout html e css do site filho seja o mais próximo possível do site pai.
 
-Para completar este desafio, criamos um repositório boilerplate (template inicial) com todos os recursos necessários. Isso inclui imagens, estrutura de pastas e arquivos onde você irá escrever seu código.
-
 ## Resultado
 
  tendo como resultado desejado este:

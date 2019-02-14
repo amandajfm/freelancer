@@ -67,11 +67,27 @@ header p{
     margin-bottom:3rem;
 }
 
-.star{
-    width: 15rem;
-    display:block;
+.line{
+    border: solid 0.13rem;
+    width: 5.5rem;
+    padding:-1rem;
+}
+
+.icon{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:22%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.fas{
+    font-size:2rem;
+}
+
+.darkColor{
+    color:#2c3e50;
 }
 
 .subtitle{

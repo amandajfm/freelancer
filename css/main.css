@@ -1,3 +1,222 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.mainNav{
+    padding-top:2.4rem;
+    padding-bottom: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: #2c3e50;
+    color:white;
+    position:fixed;
+    width:100%;
+    display: flex;
+    justify-content:space-evenly;
+    width:100%;
+}
+
+.logo{
+    margin-left:1rem;
+    font-size:2rem;
+    margin: 0 7rem;
+}
+
+ul li{
+    display:inline;
+    margin-left:3rem;
+}
+
+li:hover{
+    color:#18bc9c;
+    cursor:pointer;
+}
+
+.menu{
+    margin-right:-25rem;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #18bc9c;
+    color:white;
+    text-align: center;
+    padding-top: 9rem;
+    padding-bottom: 3.5rem;
+}
+
+h1{
+    font-size: 4.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top:4rem;
+}
+
+header p{
+    font-size:1.8rem;
+}
+
+.profile{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:3rem;
+    margin-bottom:3rem;
+}
+
+.line{
+    max-width: 15rem;
+    border-top: solid .25rem;
+}
+
+.subtitle{
+    font-size:2rem;
+    line-height:2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align:center;
+    padding-top:3rem;
+    color:#2c3e50;
+}
+
+.contact{
+    font-size: 3rem;
+}
+
+.pictures{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pictures img{
+    width:30%;
+    height:30%;
+}
+
+.about{
+    background-color:#18bc9c;
+    color:white;
+    text-align:center; 
+    padding:5rem;
+}
+
+.aboutH2{ 
+    font-size:3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align:center;
+    color:white;
+}
+
+.container{
+    display: flex;
+    max-width:61%;
+    margin: 0 auto;
+    font-size:1.2rem;
+    line-height: 1.9rem;
+    text-align:left;
+    justify-content: space-between;
+    margin-bottom:3rem;
+}
+
+.aboutBlock1{
+    width: 48%;
+}
+
+.aboutBlock2{
+    width: 48%;
+}
+
+.download{
+    color:white;
+    padding:1.2rem 3rem 1.2rem 3rem;
+    border-radius: 0.3rem;
+    border:0.15rem solid white;
+    font-size:1.3rem;
+}
+
+.download:hover{
+    color:black;
+    background-color:white;
+}
+
+a{
+    text-decoration:none;
+}
+
+.contactLine{
+    max-width: 45rem;
+    border-top: solid 0.25rem white;
+}
+
+.message{
+    border:none;
+    padding: 2rem;
+    width:45rem;
+    height:0.7rem;
+    float:center;
+    margin: 0 auto;
+    display:block;
+    font-size: 1.5rem;
+    }
+
+.messageBox{
+    margin-bottom:10rem;
+}
+
+.send{
+    color:white;
+    background-color: #18bc9c;
+    padding:1.2rem 2rem 2rem 2rem;
+    font-size:1.3rem;
+    border-radius: 0.3rem;
+    font-size:1.3rem;
+    width:3rem;
+    margin-left: 19rem;
+}
+
+.locationBox{
+    background-color: #2c3e50;
+    margin-top:6rem;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.location{
+    color: white;    
+    display: flex;
+    justify-content:space-evenly;
+    text-align:center;
+    width:75%;
+    font-size:1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location img{
+    width:15%
+}
+
+.finalSubtitle{
+    font-weight: 700;
+    font-size:1.55rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright{
+    background-color: #1a252f;
+    text-align: center;
+    color: white;
+    padding:2rem;
+}
+
+.copyright a{
+    text-decoration:none;
+    color: white;
+}

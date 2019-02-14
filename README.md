@@ -12,11 +12,7 @@ O desafio consiste em replicar o site **Freelancer**, a fim de que o layout html
 
 ## Resultado
 
- tendo como resultado desejado este:
-
-![Freelancer Website](docs/fullpage.png)
-
-E o resultado final é este:
+O resultado final alcançado é este:
 
 ![Replica Freelancer](assets/images/SiteVisual.png)
 

@@ -67,9 +67,11 @@ header p{
     margin-bottom:3rem;
 }
 
-.line{
-    max-width: 15rem;
-    border-top: solid .25rem;
+.star{
+    width: 15rem;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .subtitle{
@@ -78,12 +80,19 @@ header p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align:center;
-    padding-top:3rem;
+    padding-top:2.5rem;
+    padding-bottom: 4.4rem;
     color:#2c3e50;
 }
 
 .contact{
     font-size: 3rem;
+    line-height:2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align:center;
+    padding-top:3rem;
+    color:#2c3e50;
 }
 
 .pictures{
